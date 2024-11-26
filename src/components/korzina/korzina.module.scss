@@ -1,0 +1,693 @@
+.korzina__top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    color: #161616;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: -0.02em;
+    color: #161616;
+
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16.8px;
+      letter-spacing: -0.02em;
+      color: rgb(203, 203, 203);
+    }
+  }
+}
+
+// Bottom
+
+.korzina__bottom {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+
+  .korzina__bottom__left {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .left__top {
+      border-bottom: 1px solid rgb(203, 203, 203);
+      padding-bottom: 20px;
+      h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 38.4px;
+        letter-spacing: -0.01em;
+        color: #161616;
+      }
+    }
+  }
+}
+
+//left- Middle
+
+.middle2 {
+  background-color: rgb(241, 241, 241) !important;
+  background-color: #f8f8f8;
+  padding: 10px 10px 0 10px;
+  border-radius: 8px;
+}
+
+.left__middle {
+  background-color: #f8f8f8;
+  padding: 10px 10px 0 10px;
+  border-radius: 8px;
+  .check__boladi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+    .label1 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+.check__boladi2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  .label2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.summ_card {
+  border-top: 1px solid rgb(203, 203, 203);
+  display: flex;
+  width: 100%;
+  .middle__left {
+    position: relative;
+
+    .check {
+      position: absolute;
+      top: 10px;
+      left: 0px;
+    }
+  }
+
+  .middle__right {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    .middle__text,
+    .middle__mark {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .middle__text {
+      h3 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21.6px;
+        letter-spacing: -0.015em;
+        color: #161616;
+      }
+
+      button {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #989898;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+
+        .xmark {
+          color: #989898;
+        }
+      }
+    }
+
+    .middle__mark {
+      h3 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21.6px;
+        letter-spacing: -0.015em;
+        color: #993bf9;
+      }
+
+      .plusMinus {
+        width: 110px;
+        height: 32px;
+        border-radius: 4px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+          width: 50px;
+          height: 100%;
+          font-size: 22px;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+// style.korzina__bottom__right
+
+.korzina__bottom__right {
+  background: #fff;
+  width: 35%;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  .zakaz1 {
+    border-bottom: 1px solid #989898;
+    padding-bottom: 26px;
+    h3 {
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 38.4px;
+      letter-spacing: -0.01em;
+      color: #161616;
+    }
+  }
+
+  .zakaz2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    p {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #161616;
+    }
+
+    .Применить {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      border-bottom: 1px solid #989898;
+      padding-bottom: 40px;
+
+      input {
+        width: 333px;
+        height: 46px;
+        border-radius: 10px;
+        border: 1px;
+        border: 1px solid #989898;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.4px;
+        letter-spacing: -0.01em;
+        color: #161616;
+        padding-left: 10px;
+      }
+
+      button {
+        width: 167px;
+        height: 46px;
+        border-radius: 10px;
+        background: #161616;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 21.25px;
+        letter-spacing: -0.01em;
+        color: #f8f8f8;
+      }
+    }
+  }
+
+  .zakaz3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .zakaz_sum {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 21.25px;
+        letter-spacing: -0.01em;
+        color: rgb(164, 164, 164);
+      }
+      h4 {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 21.25px;
+        letter-spacing: -0.02em;
+        color: #161616;
+      }
+    }
+  }
+
+  .zakaz4 {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+
+    .Итого {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .h4 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.01em;
+        color: rgb(164, 164, 164);
+      }
+
+      h4 {
+        color: #993bf9;
+      }
+    }
+
+    button {
+      width: 100%;
+      height: 56px;
+      border-radius: 10px;
+      background: #161616;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 21.25px;
+      letter-spacing: -0.01em;
+      color: #f8f8f8;
+    }
+  }
+}
+
+// responsiwe
+
+@media (max-width: 1135px) {
+  .korzina__bottom__right {
+    padding: 10px;
+    gap: 30px;
+    .zakaz1 {
+      padding-bottom: 30px;
+      h3 {
+        font-size: 16px;
+      }
+    }
+
+    .zakaz2 {
+      gap: 10px;
+      p {
+        font-size: 16px;
+      }
+
+      .Применить {
+        gap: 10px;
+        padding-bottom: 40px;
+
+        input {
+          width: 180px;
+          height: 36px;
+          font-size: 12px;
+        }
+
+        button {
+          width: 117px;
+          height: 36px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .zakaz3 {
+      gap: 40px;
+      .zakaz_sum {
+        p {
+          font-size: 12px;
+        }
+        h4 {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .zakaz4 {
+      .Итого {
+        .h4 {
+          font-size: 14px;
+        }
+      }
+
+      button {
+        height: 46px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 825px) {
+  .korzina__bottom {
+    display: grid;
+    grid-template-columns: repeat(100%);
+
+    .korzina__bottom__left {
+      width: 100%;
+    }
+
+    .korzina__bottom__right {
+      background: #fff;
+      width: 100%;
+      height: 700px;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      position: relative;
+      .zakaz1 {
+        border-bottom: 1px solid #989898;
+        padding-bottom: 26px;
+        h3 {
+          font-size: 26px;
+          font-weight: 500;
+          line-height: 38.4px;
+          letter-spacing: -0.01em;
+          color: #161616;
+        }
+      }
+
+      .zakaz2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: -0.01em;
+          color: #161616;
+        }
+
+        .Применить {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 15px;
+          border-bottom: 1px solid #989898;
+          padding-bottom: 40px;
+
+          input {
+            width: 333px;
+            height: 46px;
+            border-radius: 10px;
+            border: 1px;
+            border: 1px solid #989898;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20.4px;
+            letter-spacing: -0.01em;
+            color: #161616;
+            padding-left: 10px;
+          }
+
+          button {
+            width: 167px;
+            height: 46px;
+            border-radius: 10px;
+            background: #161616;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 21.25px;
+            letter-spacing: -0.01em;
+            color: #f8f8f8;
+          }
+        }
+      }
+
+      .zakaz3 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .zakaz_sum {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          p {
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 21.25px;
+            letter-spacing: -0.01em;
+            color: rgb(164, 164, 164);
+          }
+          h4 {
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 21.25px;
+            letter-spacing: -0.02em;
+            color: #161616;
+          }
+        }
+      }
+
+      .zakaz4 {
+        position: absolute;
+        bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 90%;
+
+        .Итого {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .h4 {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: -0.01em;
+            color: rgb(164, 164, 164);
+          }
+
+          h4 {
+            color: #993bf9;
+          }
+        }
+
+        button {
+          width: 100%;
+          height: 56px;
+          border-radius: 10px;
+          background: #161616;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 21.25px;
+          letter-spacing: -0.01em;
+          color: #f8f8f8;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 474px) {
+  // Bottom
+
+  .korzina__bottom {
+    .korzina__bottom__left {
+      width: 100%;
+      padding: 20px;
+      gap: 15px;
+
+      .left__top {
+        padding-bottom: 15px;
+        h3 {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .middle__leftimg {
+    width: 100px;
+  }
+  //left- Middle
+
+  .left__middle {
+    .check__boladi {
+      padding-bottom: 20px;
+
+      .label1 {
+        gap: 5px;
+      }
+    }
+  }
+
+  .check__boladi2 {
+    padding-bottom: 10px;
+    .label2 {
+      gap: 5px;
+    }
+  }
+
+  .summ_card {
+    .middle__left {
+      position: relative;
+
+      .check {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+      }
+    }
+
+    .middle__right {
+      gap: 50px;
+
+      .middle__text,
+      .middle__text {
+        h3 {
+          font-size: 10px;
+        }
+
+        button {
+          width: 15px;
+          height: 15px;
+
+          .xmark {
+            color: #989898;
+            font-size: 10px;
+          }
+        }
+      }
+
+      .middle__mark {
+        h3 {
+          font-size: 10px;
+        }
+
+        .plusMinus {
+          width: 60px;
+          height: 30px;
+
+          button {
+            width: 40px;
+            height: 100%;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// "Right"
+
+@media (max-width: 605px) {
+  .korzina__bottom__right {
+    padding: 10px !important;
+    gap: 30px !important;
+    .zakaz1 {
+      padding-bottom: 30px !important;
+      h3 {
+        font-size: 16px !important;
+      }
+    }
+
+    .zakaz2 {
+      gap: 10px !important;
+      p {
+        font-size: 16px !important;
+      }
+
+      .Применить {
+        gap: 10px !important;
+        padding-bottom: 40px !important;
+      }
+    }
+
+    .zakaz3 {
+      gap: 40px !important;
+      .zakaz_sum {
+        p {
+          font-size: 12px !important;
+        }
+        h4 {
+          font-size: 12px !important;
+        }
+      }
+    }
+
+    .zakaz4 {
+      .Итого {
+        .h4 {
+          font-size: 14px !important;
+        }
+      }
+
+      button {
+        height: 46px !important;
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  .korzina__bottom__right {
+    width: 100% !important;
+
+    .zakaz2 {
+      .Применить {
+        gap: 2px !important ;
+
+        input {
+          width: 203px !important;
+          height: 40px !important ;
+          font-size: 12px !important;
+        }
+
+        button {
+          width: 97px !important;
+          height: 40px !important;
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+}

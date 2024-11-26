@@ -1,5 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;  
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
 }
